@@ -1,0 +1,40 @@
+Demo 1 — High Risk Patient
+InputFileECGecg_arrhythmia.csvMRImri_patient001_disease.jpg
+Clinical values to enter:
+Age: 67            Sex: Male (1)
+Chest Pain: 3      Resting BP: 160
+Cholesterol: 340   Fasting BS: Yes (1)
+Resting ECG: 2     Max Heart Rate: 95
+Exercise Angina: Yes (1)   ST Depression: 3.5
+ST Slope: 2        Major Vessels: 3
+Thalassemia: 3
+Expected result: High Risk, 55–85%
+
+These are the exact values the 🔴 preset button fills — you can just click that instead of typing.
+
+
+Demo 2 — Medium Risk Patient
+InputFileECGecg_normal.csvMRImri_patient003_disease.jpg
+Clinical values to enter:
+Age: 55            Sex: Male (1)
+Chest Pain: 2      Resting BP: 138
+Cholesterol: 260   Fasting BS: No (0)
+Resting ECG: 1     Max Heart Rate: 135
+Exercise Angina: No (0)   ST Depression: 1.8
+ST Slope: 1        Major Vessels: 1
+Thalassemia: 2
+Expected result: Medium Risk, 25–50%
+
+Demo 3 — Low Risk Patient
+InputFileECGecg_normal.csvMRImri_patient002_disease.jpg
+Clinical values to enter:
+Age: 42            Sex: Female (0)
+Chest Pain: 0      Resting BP: 118
+Cholesterol: 185   Fasting BS: No (0)
+Resting ECG: 0     Max Heart Rate: 172
+Exercise Angina: No (0)   ST Depression: 0.0
+ST Slope: 0        Major Vessels: 0
+Thalassemia: 1
+Expected result: Low Risk, 5–20%
+
+These are the exact values the 🟢 preset button fills.
