@@ -83,3 +83,18 @@ data/
 *.zip
 DeepHealthX_XAI.zip
 logs/
+
+# Root-level workspace files (tracked inside DeepHealthX_XAI/)
+/config.py
+/demo_clinical_shap.png
+/demo_ecg_saliency.png
+/demo_mri_gradcam.png
+/demo_samples/
+/gradcam_mri.py
+/models/
+/notebook/
+/requirements.txt
+/saliency_ecg.py
+/shap_clinical.py
+/webapp/
+

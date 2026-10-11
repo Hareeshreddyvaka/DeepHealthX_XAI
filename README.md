@@ -57,7 +57,7 @@ DeepHealthX_XAI/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/DeepHealthX_XAI.git
+git clone https://github.com/Hareeshreddyvaka/DeepHealthX_XAI.git
 cd DeepHealthX_XAI
 ```
 
